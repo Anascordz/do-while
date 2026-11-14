@@ -1,0 +1,15 @@
+<script>
+    let at, an, id;
+    let continuar;
+    do{
+        at=parseInt(prompt("Digite o ano atual"));
+        an=parseInt(prompt("Digite o ano de nascimento"));
+        id=at-an;
+        if(id>=18){
+            document.write("Maior de idade<br>");
+        }else{
+            document.write("Menor de idade<br>");
+        }
+        continuar=prompt("Deseja continuar? S ou N");
+    }while(continuar=="S");
+</script>
